@@ -5,7 +5,7 @@
   - [Logique pure](#logique-pure)
   - [Solutions](#solutions)
   - [Processus](#processus)
-  - [Conlusion](#conlusion)
+  - [Conclusion](#conclusion)
 - [Conception Centré Utilisateur (CCU)](#conception-centré-utilisateur-ccu)
 - [Termes importants](#termes-importants)
   - [Cocréation](#cocréation)
@@ -122,7 +122,7 @@ Phase du projet :
 4. Design graphique
 5. Développement
 
-## Conlusion
+## Conclusion
 
 La logique humaine repose sur :
 - Cadre
