@@ -1,11 +1,17 @@
-Autoformation UX
+<h1 align="center">Autoformation UX</h1>
 
 - [Qu'est ce que l'UX ?](#quest-ce-que-lux-)
   - [Problèmes logiques](#problèmes-logiques)
   - [Logique pure](#logique-pure)
   - [Solutions](#solutions)
+  - [Processus](#processus)
   - [Conlusion](#conlusion)
 - [Conception Centré Utilisateur (CCU)](#conception-centré-utilisateur-ccu)
+- [Termes importants](#termes-importants)
+  - [Cocréation](#cocréation)
+  - [Parcours utilisateur](#parcours-utilisateur)
+  - [Micromoment](#micromoment)
+  - [Points de contact](#points-de-contact)
 - [Persona](#persona)
   - [Créer vos personas](#créer-vos-personas)
     - [Socio-démographique](#socio-démographique)
@@ -15,14 +21,33 @@ Autoformation UX
     - [Collecter la clientèle](#collecter-la-clientèle)
 - [Analyse de donnée](#analyse-de-donnée)
   - [Comprendre l'utilisateur](#comprendre-lutilisateur)
-  - [Cocréation](#cocréation)
   - [Techniques d'observation](#techniques-dobservation)
   - [Métriques](#métriques)
   - [Outils](#outils)
 - [La conceptualisation créative](#la-conceptualisation-créative)
   - [Design charette](#design-charette)
-- [Découvrir les techniques du design UX](#découvrir-les-techniques-du-design-ux)
-  - [Prototyper efficacement](#prototyper-efficacement)
+- [Scénario et storyboard](#scénario-et-storyboard)
+  - [Storyboard](#storyboard)
+    - [Création](#création)
+- [Tests](#tests)
+  - [Que tester ?](#que-tester-)
+  - [Taux de mesure:](#taux-de-mesure)
+  - [Quand tester ?](#quand-tester-)
+  - [Comment tester ?](#comment-tester-)
+  - [Recruter les participants](#recruter-les-participants)
+  - [Planification](#planification)
+  - [Questionnaire post-test](#questionnaire-post-test)
+  - [Qualitatif et quantitaf (Évaluation finale)](#qualitatif-et-quantitaf-évaluation-finale)
+- [Prototypes](#prototypes)
+  - [Processus](#processus-1)
+  - [Comprendre la fidélité](#comprendre-la-fidélité)
+  - [Esquisses](#esquisses)
+  - [Prototype papier](#prototype-papier)
+    - [Atouts](#atouts)
+    - [Faiblesses](#faiblesses)
+  - [Prototype HTML](#prototype-html)
+    - [Atouts](#atouts-1)
+    - [Faiblesses](#faiblesses-1)
 - [UX pour le design web](#ux-pour-le-design-web)
   - [Designer pour les différentes générations](#designer-pour-les-différentes-générations)
     - [Baby boomers](#baby-boomers)
@@ -30,10 +55,6 @@ Autoformation UX
     - [Milléniaux](#milléniaux)
     - [Génération Z](#génération-z)
     - [Génération Alpha](#génération-alpha)
-  - [Points de contact](#points-de-contact)
-  - [Parcours utilisateur](#parcours-utilisateur)
-  - [Carte d'expérience lors des tests](#carte-dexpérience-lors-des-tests)
-  - [Micromoment](#micromoment)
   - [Guider l'utilisateur](#guider-lutilisateur)
   - [Interactions](#interactions)
   - [Causes de rebond/abandon](#causes-de-rebondabandon)
@@ -41,6 +62,10 @@ Autoformation UX
   - [Accessibilité](#accessibilité)
   - [Navigation](#navigation)
     - [Menu](#menu)
+  - [Texte à l'écran](#texte-à-lécran)
+  - [Formulaires](#formulaires)
+- [Cadrer son projet](#cadrer-son-projet)
+  - [Feuille de cadrage](#feuille-de-cadrage)
 - [Dark patterns](#dark-patterns)
 
 # Qu'est ce que l'UX ?
@@ -82,6 +107,21 @@ Les mots seuls ne peuvent pas exprimer un message clairement.
 - Causalité
 - Logique
 
+## Processus
+
+Boucle :
+1. Prototypage
+2. Tests
+3. Optimisation
+4. Nouveaux tests
+
+Phase du projet :
+1. Préconception
+2. Conception structurelle
+3. Parcours utilisateur
+4. Design graphique
+5. Développement
+
 ## Conlusion
 
 La logique humaine repose sur :
@@ -106,6 +146,60 @@ Processus de CCU:
 3. Conceptualisation
 4. Storyboard
 5. Tests
+
+# Termes importants
+
+## Cocréation
+
+Cocréation = concevoir des interfaces avec les utilisateurs
+
+Bénéfices :
+- Dispositifs efficaces
+- Facilité d'utilisation
+- Satisfaction
+
+Processus de création d'interface :
+1. Création d'interface
+2. Test de l'interface par des utiisateurs (recueil de donnée)
+3. Optimisation
+4. Test de l'interface par des utiisateurs (recueil de donnée)
+5. Optimisation
+6. Etc...
+
+## Parcours utilisateur
+
+1. Conscience du produit (penser à résoudre un problème)
+   - Curiosité => Sensibilisation
+2. Découverte
+   - Confustion => Recherche
+3. Considération
+   - Rationalité => Comparaison
+4. Achat
+   - Hésitation => Prise de décision
+5. Expérience
+6. Partage
+
+## Micromoment
+
+C'est un moment où l'utilisateur veut satisfaire son désir
+- 37% des sessions sont inférieurs à 1 minute
+- 80 % l'ont transformé un moment détente
+- Je veux aller
+- Je veux savoir
+- Je veux faire
+- Je veux acheter
+
+Concevoir des interfaces rapides et fluides pour profiter de ces moments.
+
+## Points de contact
+
+- Site web/e-mailing
+- Résultats des requêtes
+- Cartes de localisation
+- Réseaux sociaux
+- Signalétique locale
+- Renseignements téléphoniques
+- Service après-vente
 
 # Persona
 
@@ -208,23 +302,6 @@ Mais n'indiquent pas :
 
 Effectuer des phases des tests avec des utilisateurs types et on observe leur comportements
 
-## Cocréation
-
-Cocréation = concevoir des interfaces avec les utilisateurs
-
-Bénéfices :
-- Dispositifs efficaces
-- Facilité d'utilisation
-- Satisfaction
-
-Processus de création d'interface :
-1. Création d'interface
-2. Test de l'interface par des utiisateurs (recueil de donnée)
-3. Optimisation
-4. Test de l'interface par des utiisateurs (recueil de donnée)
-5. Optimisation
-6. Etc...
-
 ## Techniques d'observation
 
 Observer les actions et le ressenti de l'utilisateur
@@ -304,37 +381,105 @@ Déroulement :
   - Le groupe peut poser 1 question. La réponse ne peut excéder 1 minute
   - L'animateur collecte les feuilles et enregistre les idées
 
-# Découvrir les techniques du design UX
+# Scénario et storyboard
 
-Boucle :
-1. Prototypage
-2. Tests
-3. Optimisation
-4. Nouveaux tests
+Pour un utilisateur, un chemin :
+- Ne mène pas toujours à l'achat
+- Peut être sans issue
+- Peut être semé d'embuches
+- Peut devenir un chemin de croix
 
-Phase du projet :
-1. Préconception
-2. Conception structurelle
-3. Parcours utilisateur
-4. Design graphique
-5. Développement
+L'utilisateur peut :
+- Trouver son chemin
+- Poursuivre son petit bonhomme de chemin
+- Rebrousser chemin
+- Passer son chemin
 
-## Prototyper efficacement
+Un scénario précise un processus :
+- Concevoir les interactions
+- Réaliser les prototypes
+- Organiser des sessions de tests
+- Guider les designers front-end
+- Arbitrer les choix de solutions techniques
+- Évaluer et piloter le développement
 
-Différents types :
-- Basse fidélité (maquettes filaires, esquisses)
-  - Avant la conception
-- Haute fidélité (design avancé)
-  - Avant le développement
-- Fonctionnels (simulation sur poste)
-  - Avant, pendant, après le développement
-- Tests significatifs
+Points forts :
+- Présentation synthétique du parcours
+- Explicite des variantes parfois complexes
+- Couvre la totalité de l'interaction
+- Est évolutif
+- Valide la conception
 
-Tests (mesure):
+Base du scénario :
+- Qui ?
+- Pourquoi ?
+- Comment ?
+
+## Storyboard
+
+Un storyboard est une présentation visuelle d'un scénario
+
+Points forts :
+- Visualisation immédiate
+- Annotation et bulles
+- Mise en évidence des bifurcations
+- Souplesse de mise en oeuvre
+- Collaboratif
+
+Le storyboard visualise :
+- Propositions d'un groupe
+- Interactions complexes
+- Pour organiser des sessions de tests
+- Pour guider les designers front-end
+- Arbitrer les choix de solutions techniques
+- Évaluer et piloter le développement
+
+### Création
+
+Cela ressemble à des bandes dessinées dans l'idée
+
+![alt text](./Storyboard.png)
+
+Si l'image n'est pas assez explicite, ajoutez une description
+
+# Tests
+
+Processus rigoureux
+
+Les résultats peuvent varier :
+- En fonction des participants
+- En fonction du contexte
+- En fonction de la conduite
+
+Règles de base :
+- Filtrage des participants
+- Nombre raisonnable de participants (5-20)
+- Motivation (récompense/rémunération)
+- Durée fixée (0.5h - 1.5h)
+- Lieu adapté et préparé
+
+## Que tester ?
+
+Mesurer la pertinence et l'efficacité des :
+- Fonctions nouvelles
+- Fonctions les plus utilisées
+- Fonctions les plus importantes
+- Fonctions les plus problématiques
+
+## Taux de mesure:
 - Succès/échec
+  - Accomplit la tâche prévue
+  - Mène une procédure jusqu'à son terme
+  - Comprend l'information délivrée
 - Taux d'erreurs
-- Facilité
-- Satisfaction
+  - Accomplit la tâche prévue selon une méthode alternative
+  - Accomplit la tâche de façon erronée
+  - Pense avoir accomplit la tâche alors que non
+- Facilité/difficulté
+- Satisfaction/frustration
+- Intention
+
+## Quand tester ?
 
 Conduite de tests :
 - Contenu
@@ -343,6 +488,13 @@ Conduite de tests :
   - Avant le développement
 - Parcours
   - Avant, pendant, après le développement
+
+## Comment tester ?
+
+Une conduite de tests se doit d'être :
+- Itérative : Tester -> Corriger -> Valider
+- Planifiée : Durée, Participants, Conducteur
+- Segmentée : Profils, Tâches, Scénarios
 
 Différents types de tests :
 - Tri de cartes (Faible coût, simple, significatif)
@@ -359,15 +511,135 @@ Différents types de tests :
   - Évaluation de l'expérience sur 10
     - 1 à 6 : Mauvaise expérience
     - 7 et 8 : Expérience correcte
-    - 9 et 10 : Exprérience excellente
+    - 9 et 10 : Expérience excellente
   - Outils : Morae
 
-Une conduite de tests se doit d'être :
-- Itérative : Tester -> Corriger -> Valider
-- Planifiée : Durée, Participants, Conducteur
-- Segmentée : Profils, Tâches, Scénarios
-
 ![](./OrganisationTest.png)
+
+## Recruter les participants
+
+Sélectionner les participants se rapprochant le plus à vos personas.
+
+## Planification
+
+![](./PlanningTest.png)
+
+## Questionnaire post-test
+
+Mesurer :
+- Niveau de facilité
+- Expérience utilisateur
+- Intentions d'achat et de préconisation
+
+Évaluer :
+- Points irritants
+- Points de blocage
+- Suggestions
+
+Évaluation de l'expérience sur 10
+  - 1 à 6 : Mauvaise expérience
+    - Identifier les points de blocage
+    - Identifier les erreurs de conception
+  - 7 et 8 : Expérience correcte
+    - Identifier les points irritants
+    - Identifier les axes d'amélioration
+  - 9 et 10 : Expérience excellente
+
+## Qualitatif et quantitaf (Évaluation finale)
+
+Mesurer l'efficacité :
+- Temps nécessaires
+- Nombre d'étapes nécessaires
+- Nombre d'erreurs
+- Nombre d'abandons
+- Ce qui motive les utilisateurs
+- Ce que font les utilisateurs
+- Ce que pensent les utilisateurs
+- Ce que ressentent les utilisateurs
+
+Carte d'expérience :
+![](./CarteExpérience.png)
+
+# Prototypes
+
+Objectifs des prototypes :
+1. Affiner la conception
+   - Tester physiquement
+   - Trouver de nouvelles idées
+   - Prototypes haute fidélité => commentaires détailles sur la natrue précise des interactions
+   - Prototypes basse fidélité => innovation
+2. Concevoir sans contraintes techniques
+   - Concentré sur l'expérience utilisateur et non sur la faisabilité
+   - Les restrictions dues au code peuvent nuire à l'ergonomie avec un point de vue trop étroit
+   - Prototype fonctionnel pour faciliter le déploiement
+3. Accroîte la collaboration
+   - Les prototypes stimulent la collaboration
+   - Créer des règles et des outils relationnels
+   - Établir un processus clair dès le début
+4. "Vendre" les idées
+   - Une idée est plus facile à faire adopter à un client qui a travaillé sur le prototype
+   - Les prototypes doivent être centrés sur les points forts du projet
+   - Établir un processus clair dès le début
+
+## Processus
+
+Itération :
+1. Remue-méninges
+2. Prototypage
+3. Tests
+4. Évaluation
+
+## Comprendre la fidélité
+
+Différents types :
+- Basse fidélité (maquettes filaires, esquisses)
+  - Avant la conception
+- Haute fidélité (design avancé)
+  - Avant le développement
+- Fonctionnels (simulation sur poste)
+  - Avant, pendant, après le développement
+- Tests significatifs
+
+![](./Fidélité.png)
+
+## Esquisses
+
+1. Réalisation d'esquisses : 10-30 minutes
+2. Phase d'évaluation (filtrer les idées)
+3. Précisez les idées gardées
+
+Ne faites pas quelque chose de trop complet, **c'est la quantité qui compte, non la qualité**
+
+## Prototype papier
+
+Prototype papier != basse fidélité (la conception visuelle est inachevé mais peut représenter précisément le fonctionnement et l'interactivité)
+
+### Atouts
+- Accessible à tous
+- Forme la plus collaborative
+- Suscite des idées et des innovations
+- Réalisable à tout moment et à tout endroit
+- Pas de contraintes techniques
+- Plus rapide
+- Moins coûteux
+
+### Faiblesses
+- Moindre fidélite visuelle
+- Peu adapté aux interactions complexes
+- Difficile avec des équipes éparpillées
+
+## Prototype HTML
+
+### Atouts
+- Souvent la même technologie que le déploiement
+- Utiliser les mêmes ressources
+- Possinilité plus rare de migrer le code
+
+### Faiblesses 
+- Compétences HTML/CSS/JS
+- Haut niveau pour les interactions avancées
+- Réalisation plus longue et parfois difficile
+- Look basique des frameworks
 
 # UX pour le design web
 
@@ -457,45 +729,6 @@ Conseils :
 - Icônes
 - Gardes fous à l'achat
 
-## Points de contact
-
-- Site web/e-mailing
-- Résultats des requêtes
-- Cartes de localisation
-- Réseaux sociaux
-- Signalétique locale
-- Renseignements téléphoniques
-- Service après-vente
-
-## Parcours utilisateur
-
-1. Conscience du produit (penser à résoudre un problème)
-   - Curiosité => Sensibilisation
-2. Découverte
-   - Confustion => Recherche
-3. Considération
-   - Rationalité => Comparaison
-4. Achat
-   - Hésitation => Prise de décision
-5. Expérience
-6. Partage
-
-## Carte d'expérience lors des tests
-
-![](./CarteMentale.png)
-
-## Micromoment
-
-C'est un moment où l'utilisateur veut satisfaire son désir
-- 37% des sessions sont inférieurs à 1 minute
-- 80 % l'ont transformé un moment détente
-- Je veux aller
-- Je veux savoir
-- Je veux faire
-- Je veux acheter
-
-Concevoir des interfaces rapides et fluides pour profiter de ces moments.
-
 ## Guider l'utilisateur
 
 - Landing pages
@@ -564,6 +797,49 @@ Axes d'améliorations :
 Ne pas juste utiliser des icônes car il va devoir apprendre, accompagnez les icônes avec des légendes
 
 Ne pas saturer les menus en mettant trop de choix, l'utilisateur risque de décrocher
+
+## Texte à l'écran
+
+Objet précis :
+- Titre informatif
+- Description précise
+- Mots-clés
+- Objective
+
+Structure prédictible :
+- Prioriser les éléments
+- Créer un plan
+- Penser balises H1, H2 etc...
+
+L'écriture doit être organisée :
+- Rédiger selon le plan
+- Écriture factuelle
+- Listes à puces et à numéros
+- Travailler l'introduction : résumé
+- Travailler la conclusion : deuxième titre
+
+## Formulaires
+
+Conseils :
+- Mettre des placeholders
+- Adapter la taille selon le contenu attendu
+- Ne pas mettre les labels en capital
+- Gestion d'erreurs
+- Fonctions incitatives 
+  - "Votre profil est complété à 20%" par exemple 
+
+# Cadrer son projet
+
+## Feuille de cadrage
+
+Structure :
+1. Résumé
+2. Public cible
+3. Fonctions requises
+4. Spécifications techniques
+5. Qualités et bénéfices
+6. Risques potentiels
+7. Développements futurs
 
 # Dark patterns
 
